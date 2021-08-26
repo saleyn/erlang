@@ -325,7 +325,7 @@ Though in this example we didn't use ei_get_type() function, this function is qu
 ### Makefile
 The following makefile can be used to build the sample port program and the corresponding Erlang module:
 
-```make
+```lang-makefile
 $ cat Makefile
 ERL_LIB=/usr/local/lib/erlang/lib/erl_interface-3.5.5
 CFLAGS=-Wall -I/usr/local/include -I$(ERL_LIB)/include

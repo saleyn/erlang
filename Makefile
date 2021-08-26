@@ -13,11 +13,10 @@ gh-pages:
   fi
 	git checkout $(MASTER) -- *.md
 	git checkout $(MASTER) -- assets/css/style.scss
-	@FILES=`git status -uall --porcelain | sed -n '/^?? [A-Za-z0-9]/{s/?? //p}'`; \
+	@FILES=`git status -uall --porcelain | sed -n '/^.. [A-Za-z0-9]/{s/.. //p}'`; \
 	for f in $$FILES ; do \
 		echo "Adding $$f"; git add $$f; \
 	done
-	exit 1
 	@sh -c "ret=0; set +e; \
 		if   git commit -a --amend -m 'Documentation updated'; \
 		then git push origin +gh-pages; echo 'Pushed gh-pages to origin'; \

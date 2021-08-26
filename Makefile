@@ -6,6 +6,10 @@ info:
 	@echo "make gh-pages     - Make gh-pages from the main branch"
 
 gh-pages:
+	@# The git config params must be set when this target is executed by a GitHub workflow
+	@[ -z "$(git config user.name)" ] && \
+		git config user.name  github-actions
+		git config user.email github-actions@github.com
 	@if git branch | grep -q gh-pages ; then \
     git checkout gh-pages; \
   else \

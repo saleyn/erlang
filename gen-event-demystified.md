@@ -1,8 +1,8 @@
-# Gen event behavior demystified
+# Gen_event behavior demystified
 
 **Author**: Serge Aleynikov <saleyn at gmail.com>
 
-##Overview
+## Overview
   
 Gen_event is one of the standard OTP behaviours included in the Erlang/OTP distribution. It is not as frequently used as gen_server and hence often is not well understood by developers who begin learning the OTP.
 

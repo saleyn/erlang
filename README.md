@@ -4,9 +4,9 @@
   title: Erlang Articles
 -->
 
-# Erlang Articles
-
 **Author**: Serge Aleynikov
+
+# Erlang Articles
 
 - [Building a Non-blocking TCP server using OTP principles](non-blocking-tcp-server.md) by Serge Aleynikov
 - [Gen event behavior demystified](gen-event-demystified.md) by Serge Aleynikov

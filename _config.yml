@@ -1,3 +1,12 @@
+title:            "Selected C++ / Erlang / Elixir / C# Projects"
+author:           Serge Aleynikov
+email:            "saleyn@gmail.com"
+description:      "Open Source Contributions by Serge Aleynikov"
+github:           saleyn
+markdown:         kramdown
+parse_block_html: false
+url:              https://saleyn.github.com/erlang/
+
 #remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 #  - jekyll-remote-theme

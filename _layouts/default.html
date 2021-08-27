@@ -21,16 +21,17 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}"/>
     <meta name="twitter:description" content="{%- if page.description -%}{{ page.description | truncate: 140 }}{%- else -%}{{ site.description | truncate: 140  }}{%- endif -%}"/>
+    <script src="scripts/mode-switcher.js"></script>
 </head>
 
 <body>
 
 <article>
 
+<a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a>
 <!--
-  <a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a>
--->
 <button id="theme-toggle" onclick="modeSwitcher()"></button>
+-->
 
 <h1>{{ page.title }}</h1>
 
@@ -41,8 +42,6 @@
 <footer>
 
 </footer>
-
-<script src="/scripts/mode-switcher.js"></script>
 
 </body>
 

@@ -4,7 +4,7 @@ let theme      = sessionStorage.getItem('theme');
 function switchMode(isLight, theme) {
   let mode = isLight ? 'dark'       : 'light';
   let name = isLight ? 'Light Mode' : 'Dark Mode';
-  sessionStorage.setItem('theme', theme === '' ? theme : mode);
+  sessionStorage.setItem('theme', mode);
   document.documentElement.setAttribute("theme-toggle",  mode);
   document.getElementById("theme-toggle").innerHTML   =  name;
 }
@@ -20,4 +20,4 @@ function modeSwitcher() {
   switchMode(isLight, theme);
 }
 
-switchMode(theme === 'light' || !preferDark.matches, theme);
+switchMode(theme === 'light' || !preferDark.matches);

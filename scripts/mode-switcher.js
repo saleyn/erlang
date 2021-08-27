@@ -1,9 +1,6 @@
 let preferDark = window.matchMedia("(prefers-color-scheme: dark)");
 let theme      = sessionStorage.getItem('theme');
 
-document.getElementById("theme-toggle").innerHTML = preferDark.matches
-                                                  ? "Light Mode"
-                                                  : "Dark Mode";
 function switchMode(isLight, theme) {
   let mode = isLight ? 'dark'       : 'light';
   let name = isLight ? 'Light Mode' : 'Dark Mode';
@@ -23,4 +20,4 @@ function modeSwitcher() {
   switchMode(isLight, theme);
 }
 
-switchMode(theme === 'light', theme);
+switchMode(theme === 'light' || !preferDark.matches, theme);

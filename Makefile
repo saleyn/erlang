@@ -15,7 +15,7 @@ gh-pages:
   else \
     git checkout -b gh-pages; \
   fi
-	git checkout $(MASTER) -- assets/css/style.scss _layouts *.md
+	git checkout $(MASTER) -- assets _layouts css *.md
 	@FILES=`git status -uall --porcelain | sed -n '/^.. [A-Za-z0-9]/{s/.. //p}'`; \
 	for f in $$FILES ; do \
 		echo "Adding $$f"; git add $$f; \

@@ -15,9 +15,11 @@ function prefersColorTest(preferDark) {
 preferDark.addListener(prefersColorTest);
 
 function modeSwitcher() {
-	let theme   = sessionStorage.getItem('theme');
+  let theme   = sessionStorage.getItem('theme');
   let isLight = theme === 'light' || !preferDark.matches;
   switchMode(isLight, theme);
 }
 
-switchMode(theme === 'light' || !preferDark.matches);
+window.onload = function() {
+  switchMode(theme === 'light' || !preferDark.matches);
+}

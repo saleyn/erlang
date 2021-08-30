@@ -279,6 +279,10 @@
 - [ ] [Misultin (pronounced mee-sool-téen) is an Erlang library for building fast lightweight HTTP(S) servers, which also supports websockets.](https://github.com/ostinelli/misultin)
 - [ ] [Simple, robust and performant Erlang web server](https://github.com/knutin/elli)
 
+## Messaging Libraries and Articles
+
+- [ ] [Elixir Phoenix + Kafka Integration — Message Broadcasting Application](https://ritresh-girdhar.medium.com/elixir-phoenix-kafka-integration-message-broadcasting-application-cdbcda2fa229)
+
 ## Json
 
 - [ ] [JSONX is an Erlang library for efficient decode and encode JSON, written in C.](https://github.com/iskra/jsonx)

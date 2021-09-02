@@ -124,6 +124,7 @@
 - [ ] [Alternative to the official erlang documentation](http://erldocs.com/)
 - [ ] [Inside the Erlang VM with focus on SMP (PDF)](http://www.erlang.se/euc/08/euc_smp.pdf)
 - [ ] [Erlang Documentation Server](http://erldoc.info/)
+- [ ] [Erlang Application Security Guidelines](https://erlef.github.io/security-wg)
 
 ## Style guide and Erlang Enhancement Proposals
 

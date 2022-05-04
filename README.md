@@ -284,6 +284,13 @@
 
 - [ ] [Elixir Phoenix + Kafka Integration — Message Broadcasting Application](https://ritresh-girdhar.medium.com/elixir-phoenix-kafka-integration-message-broadcasting-application-cdbcda2fa229)
 
+## Cluster libraries
+
+- [ ] [Swarm - distributed process registry](https://github.com/bitwalker/swarm)
+- [ ] [libcluster - dynamic cluster support](https://github.com/bitwalker/libcluster)
+- [ ] [Horde - distributed supervisor](https://github.com/derekkraan/horde)
+- [ ] [DeltaCRDT - replicated data type](https://github.com/derekkraan/delta_crdt_ex)
+
 ## Json
 
 - [ ] [JSONX is an Erlang library for efficient decode and encode JSON, written in C.](https://github.com/iskra/jsonx)

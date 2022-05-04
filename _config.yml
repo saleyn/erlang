@@ -1,0 +1,15 @@
+#theme: jekyll-theme-midnight
+#load_paths:
+#  - _sass
+#  - node_modules
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - ei-in-port-programs.md
+  - gen-event-demystified.md
+  - non-blocking-tcp-server.md
+  - snmp-quick-start.md
